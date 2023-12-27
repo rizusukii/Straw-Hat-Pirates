@@ -39,7 +39,7 @@ nav {
     transition: 0.3s;
   }
   nav .logo a:hover {
-    color: black;
+    color: rgb(219, 162, 39);
   }
 
   nav .checkbox {
@@ -73,7 +73,7 @@ nav {
   }
   
   .nav-list li a:hover {
-    border-bottom-color:#ecb92c;
+    border-bottom-color:rgba(189, 137, 7, 0.808);
     color:rgb(201, 23, 23);
   }
 
