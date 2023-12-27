@@ -230,6 +230,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 30px;
  }
 
@@ -321,6 +322,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 30px;
  }
 
@@ -412,6 +414,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 30px;
  }
 
@@ -503,6 +506,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 30px;
  }
 
@@ -594,6 +598,7 @@ nav {
     width: 90%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 30px;
  }
 
@@ -642,7 +647,6 @@ nav {
   margin-left: 60px;
   margin-right: 60px;
   font-size: 22px;
-  font-weight: 1px;
 }
 
 /*Honorary Members*/
@@ -744,18 +748,20 @@ h1{
 
       nav {
         background-color:rgb(119, 5, 5);
+        transition: 0.3s;
       }
     
       ul {
         position: absolute;
-        width: 100%;
-        height: calc(100vh - 85px);
+        width: 75%;
+        height: calc(100vh - 100px);
         left: -200%;
         top: 85px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(253, 248, 248);
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
+        margin-top: 10px;
       }
     
       nav #check:checked ~ ul {
@@ -768,6 +774,7 @@ h1{
 }
 
 @media (width < 881px) {
+
     .row {
         grid-template-columns: 1fr;
         gap: 50px;
