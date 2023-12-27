@@ -141,6 +141,61 @@ nav {
     padding-left: 30px;
  }
 
+ /* Monkey D. Luffy */
+
+ .section-luffy {
+  background-color: black;
+  color: rgb(138, 65, 5);
+}
+
+.section-luffy-container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content-luffy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description-luffy {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profile-image-luffy {
+    display: grid;
+    place-items: center;
+  }
+  
+  .profile-image-luffy img {
+    width: min(25rem, 90%);
+    border-radius: 0%;
+  }
+
 
 /* Media Queries, Responsivness*/
 @media (width < 1250px) {
