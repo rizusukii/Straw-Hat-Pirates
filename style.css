@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family:  'Caprasimo', serif;
+}
+
+img{
+    width: 50%;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .content {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    font-size: 35px;
+    font-weight: 60;
+    color: rgba(189, 137, 7, 0.808);
+    transition: 0.3s;
+  }
+  nav .logo a:hover {
+    color: black;
+  }
+
+  nav .checkbox {
+    display: none;
+  }
+  
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  
+  .nav-list li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 30;
+    font-size: 30px;
+    color:rgb(138, 65, 5);
+    transition: 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    border-bottom-color:#ecb92c;
+    color:rgb(201, 23, 23);
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+    url("images/Straw-Hat-Pirates.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
